@@ -1,15 +1,12 @@
-import { useState } from 'react'
 import './App.css'
+import Layout from './views/pages/Layout'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <h1>Hello,! 
-        <br />
-        React Typescript with Vite</h1>
-    </div>
+    <>
+      <Layout />
+    </>
   )
 }
 
